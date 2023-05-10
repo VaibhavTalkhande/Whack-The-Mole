@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 .container{
     min-height: 100vh;
     width: 100vw;
@@ -64,6 +65,7 @@ button{
     font-family: 'Orbitron', sans-serif;
 }
 
+
 #pauseGame{
     display: none;
 }
@@ -85,13 +87,34 @@ button:hover{
 }
 @media screen and (max-width: 768px) {
     .grid{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
+    #score{
+        width: 100px;
+    }
+    #timeLeft{
+        width: 100px;
+    }
+    .square{
+        width: 100px;
+        height: 100px;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+    button{
+        width: 100px;
+    }
+
+
     
 }
     
-}
+
 .square{
 
     width: 100px;
