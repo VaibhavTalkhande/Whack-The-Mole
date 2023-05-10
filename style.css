@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -24,12 +25,13 @@
     justify-content: center;
     text-align: center;
     margin: 20px auto;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .main h1{
     font-size: 54px;
-    color:white;
-    text-shadow: 1px 1px 3px black;
+    color: blueviolet;
+    text-shadow: 1px 1px 3px rgb(246, 243, 243);
     font-style: italic;
 }
 
@@ -44,14 +46,15 @@
 }
 
 button{
-    margin: 6px;
+    margin: 10px;
     width: 12rem;
     padding: 12px 5px;
-    border-radius: 20px;
-    border: none;
-    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid blueviolet;
+    color: blueviolet;
     background-color: black;
-    box-shadow: 1px 1px 3px blue;
+    box-shadow: 2px 4px 3px blueviolet;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #pauseGame{
@@ -59,6 +62,8 @@ button{
 }
 button:hover{
     cursor: pointer;
+    background-color: blueviolet;
+    color:black;
 }
 
 .grid{
@@ -75,14 +80,38 @@ button:hover{
 
     width: 100px;
     height: 100px;
-    border: none;
-    border-radius: 2rem;
+    border: 1px solid #2b2b2b;
+    border-radius: 0.5rem;
     margin: 10px;
-    background-color: white;
-    box-shadow: 1px 1px 3px blue;
+    background-color: blueviolet;
+    box-shadow: 1px 1px 5px blueviolet;
+
 }
 
 .mole{
     background: url('Assets/mole.png');
     background-size: cover;
+
+}
+#score{
+    margin: 10px;
+    width: 15rem;
+    padding: 12px 5px;
+    border-radius: 0.5rem;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: black;
+    box-shadow: 2px 4px 3px blueviolet;
+    font-family: 'Orbitron', sans-serif;
+}
+#timeLeft{
+    margin: 10px;
+    width: 12rem;
+    padding: 12px 5px;
+    border-radius: 0.5rem;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: black;
+    box-shadow: 2px 4px 3px blueviolet;
+    font-family: 'Orbitron', sans-serif;
 }

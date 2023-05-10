@@ -27,7 +27,7 @@ function randomMole(){
 
 function countDown(){
     timeLeft--;
-    timeLeftH2.innerHTML = `Time Left: ${timeLeft}`;
+    timeLeftH2.innerHTML = `Time Left : ${timeLeft}`;
 
     if(timeLeft === 0){
         clearInterval(timerId);
@@ -41,8 +41,8 @@ function startGame(){
     score = 0;
     timeLeft = 60;
 
-    scoreH2.innerHTML = 'Your Score: 0';
-    timeLeft.innerHTML = 'Time Left: 60';
+    scoreH2.innerHTML = 'Your Score : 0';
+    timeLeft.innerHTML = 'Time Left : 60';
     grid.style.display = 'grid';
     pauseGameButton.style.display = 'inline-block'
     pauseGameButton.innerHTML = 'Pause';
@@ -76,7 +76,7 @@ squares.forEach(square => {
                 hitMusic.play();
                 setTimeout(() => {hitMusic.pause()}, 1000);
                 score++;
-                scoreH2.innerHTML = `Your Score ${score}`;
+                scoreH2.innerHTML = `Your Score : ${score}`;
                 hitPosition = null;
             }
         }
