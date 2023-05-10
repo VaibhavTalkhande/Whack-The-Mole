@@ -19,13 +19,6 @@ body{
 
 
 }
-@media screen and (max-width: 768px) {
-    .container{
-        flex-direction: column;
-        
-    }
-    
-}
 
 .main{
     
@@ -94,10 +87,10 @@ button:hover{
         height: 100px;
     }
     #score{
-        width: 100px;
+        width: 100%;
     }
     #timeLeft{
-        width: 100px;
+        width: 100%;
     }
     .square{
         width: 100px;
@@ -110,17 +103,17 @@ button:hover{
         font-size: 20px;
     }
     button{
-        width: 100px;
+        width: 50%;
     }
     .main{
         width: 100vw;
         margin: 0px auto;
-        height: 50%;
+        height: 40vh;
     }
     .container{
-        margin: 0%;
+        height: 100vh;
         width: 100vw;
-        margin-bottom: 90%;
+        justify-content: flex-start;
     }
 
     
@@ -157,7 +150,7 @@ button:hover{
 }
 #timeLeft{
     margin: 10px;
-    width: 12rem;
+    width: 15rem;
     padding: 12px 5px;
     border-radius: 0.5rem;
     border: 1px solid blueviolet;
